@@ -20,6 +20,15 @@ Admin Login==>>> user name - binny@gmail.com
           
           <welcome-file-list>
 		<welcome-file>
-			login.html
+			Welcome.html
 		</welcome-file>
 	</welcome-file-list>
+
+
+ commands to execute in database server
+ sudo su -
+ yum install mysql -y
+ mysql -h <hostname-endpoint> -P 3306 -u admin -p
+ show database;
+ use bravo;
+ select * from TeamDto;
