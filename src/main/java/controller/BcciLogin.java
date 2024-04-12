@@ -19,7 +19,7 @@ public class BcciLogin extends HttpServlet
 		String pd = req.getParameter("pwd");
 		
 		
-		if(eml.equals("binny@gmail.com") && (pd.equals("binny123")))
+		if(eml.equals("sak@gmail.com") && (pd.equals("sak333")))
 		{
 			resp.sendRedirect("options.html");
 		}
